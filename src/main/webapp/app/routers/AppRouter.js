@@ -64,7 +64,7 @@ define(["app", "views/loginView", "views/homeView", "views/headerView", "views/F
                 },
                 logout: function() {
                     var resp = app.sessionModel.logout();
-                    app.sessionModel.clear()
+                    app.sessionModel.clear();
                     window.location.assign("login");
                 }
 

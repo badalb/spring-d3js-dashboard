@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
 	$.ajax({
-        url: '/views',
+        url: '/myviews',
         contentType: 'application/json',
         dataType:'json',
         type: 'GET',

@@ -17,7 +17,7 @@ define([ "backbone", "app" ], function(Backbone, app) {
 		
 		url :function (){
 			var gurl=app.context()+ "/success";
-			return gurl
+			return gurl;
 		},
 
 		getUser : function() {

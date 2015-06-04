@@ -314,3 +314,9 @@ text-align:right;
 } 
 
  .inputbor{ border: 1px solid #c1c1c1;}
+ .chart_div{
+        width: 400px;
+        border: 1px solid black;
+        height: 500px;
+        float: left;
+ }
