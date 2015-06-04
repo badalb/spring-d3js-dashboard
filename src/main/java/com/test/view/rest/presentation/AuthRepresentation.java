@@ -26,9 +26,12 @@ public class AuthRepresentation extends BaseRepresentation {
 	private Date lastModifiedDate;
 
 	private String lastName;
+	
+	private String username;
+	
+	@SuppressWarnings("rawtypes")
+	private Set authorities;
 
-
-	private String userName;
 
 	private Set<String> roles;
 
@@ -120,12 +123,22 @@ public class AuthRepresentation extends BaseRepresentation {
 		this.lastName = lastName;
 	}
 	
-	public String getUserName() {
-		return userName;
+	public String getUsername() {
+		return username;
 	}
 
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+
+	@SuppressWarnings("rawtypes")
+	public Set getAuthorities() {
+		return authorities;
+	}
+
+	public void setAuthorities(@SuppressWarnings("rawtypes") Set authorities) {
+		this.authorities = authorities;
 	}
 
 	public Set<String> getRoles() {

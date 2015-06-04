@@ -14,7 +14,7 @@ import com.test.dashboard.domian.ViewStyle;
 @RestController
 public class DashboardViewController {
 
-	@RequestMapping(value = "/views", method = RequestMethod.GET)
+	@RequestMapping(value = "/myviews", method = RequestMethod.GET)
 	public List<View> findDashboardViews() {
 		List<View> views = prepareViews();
 		return views;
@@ -48,7 +48,6 @@ public class DashboardViewController {
 
 		return views;
 	}
-	
 	
 	
 private List<ViewStyle> preparePiechartStyles() {
