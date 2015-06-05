@@ -43,6 +43,10 @@ define(["backbone", "app"], function(Backbone, app) {
             var url = app.API + '/myviews';
             this.getRequest({}, callback, {url: url, async: false, reqType: 'GET'});
         },
+       getChartData: function(callback, opts) {
+            var url = app.API + '/chartdata/'+opts.uniqueReportCode;
+            this.getRequest({}, callback, {url: url, async: true, reqType: 'GET'});
+        },
     });
 
     return DashboardModel;

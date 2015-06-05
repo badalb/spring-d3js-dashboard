@@ -61,7 +61,8 @@ require.config({
         'jquery.stickyheader': '../assests/js/lib/jquery.stickyheader',
         'format-currency'       : '../assets/js/lib/jquery.formatCurrency-1.4.0.min',
         //'datatable-input-pagination' : '../assets/js/lib/datatable-input-pagination',
-        'parsley.min': '../assets/js/lib/parsley.min'
+        'parsley.min': '../assets/js/lib/parsley.min',
+        'd3'                  : '../assets/js/lib/d3.min',
         	
     },
 
@@ -108,7 +109,8 @@ require.config({
         "jquery.stickyheader" : ["jquery-1.10.2.min"],
         "format-currency" : ["jquery-1.10.2.min"],
        // "datatable-input-pagination" :  ["jquery-1.10.2.min"],
-        "parsley.min" :["jquery-1.10.2.min"]
+        "parsley.min" :["jquery-1.10.2.min"],
+        'd3' : { exports: 'd3' },
     }
 
 });
