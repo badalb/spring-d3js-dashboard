@@ -1,4 +1,4 @@
-package com.test.dashboard.web;
+package com.test.view.rest.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ import com.test.dashboard.domian.View;
 import com.test.dashboard.domian.ViewStyle;
 
 @RestController
-public class DashboardViewController {
+public class ViewController {
 
 	@RequestMapping(value = "/myviews", method = RequestMethod.GET)
 	public List<View> findDashboardViews() {

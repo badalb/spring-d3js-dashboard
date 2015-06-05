@@ -1,4 +1,4 @@
-package com.test.dashboard.web;
+package com.test.view.rest.controllers;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,10 +1,10 @@
 package com.test.dashboard.domian;
 
-public class Role {
+public class RoleViews {
 
 	private Long roleId;
 	
-	private String roleName;
+	private Long viewId;
 
 	public Long getRoleId() {
 		return roleId;
@@ -14,13 +14,15 @@ public class Role {
 		this.roleId = roleId;
 	}
 
-	public String getRoleName() {
-		return roleName;
+	public Long getViewId() {
+		return viewId;
 	}
 
-	public void setRoleName(String roleName) {
-		this.roleName = roleName;
+	public void setViewId(Long viewId) {
+		this.viewId = viewId;
 	}
+	
+	
 	
 	
 }
